@@ -1,5 +1,5 @@
 {
-  "name": "data-dog/audit-bundle",
+  "name": "krowek/audit-bundle",
   "type": "symfony-bundle",
   "description": "Audit bundle for symfony2 and doctrine orm, logs any database change",
   "keywords": ["audit", "log", "symfony2", "bundle", "doctrine", "orm"],
@@ -28,7 +28,7 @@
     "ext-pdo": "*",
     "ext-pdo_sqlite": "*",
 
-    "symfony/symfony": "^3.0",
+    "symfony/symfony": "^3.0|^4.0",
     "doctrine/orm": "^2.5",
     "doctrine/doctrine-bundle": "^1.6",
     "doctrine/doctrine-fixtures-bundle": "^2.2",
